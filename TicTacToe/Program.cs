@@ -44,6 +44,8 @@
                     // The move was invalid, so ask again
                     // Ход был недействителен, поэтому спросите еще раз
                     Console.WriteLine("This move is not possible, select an empty cell for the move");
+                    // Ждем 5 секунд (5000 миллисекунд)
+                    Thread.Sleep(5000);
                 }
             }
 
